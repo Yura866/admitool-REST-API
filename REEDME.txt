@@ -1,0 +1,18 @@
+Hi,  Pagantis team !!!
+
+I have added new features to the application such as removing users and creating new portfolios,
+and some features are not implemented in the front-end part, such as creating and editing new user, deleting user's wallets ...ect. 
+I have added them to the TODO list, for the future.).  
+
+The storage Layer was implemented with Java SQL database H2 .
+The Unit tests needs the connection with server before do that. 
+
+vue admin-panel :
+https://github.com/Yura866/test-admintool.git
+
+API REST:
+https://github.com/Yura866/admitool-REST-API.git
+
+
+Regards,
+Yuriy Huzo
