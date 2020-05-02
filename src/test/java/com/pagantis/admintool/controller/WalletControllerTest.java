@@ -17,6 +17,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
+
+import com.pagantis.admintool.AdmintoolApplication;
 import com.pagantis.admintool.service.WalletService;
 
 
@@ -26,7 +28,7 @@ import com.pagantis.admintool.service.WalletService;
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @ActiveProfiles("test")
 @ContextConfiguration(classes = {WalletService.class})
-public class WalletControllerTest {
+public class WalletControllerTest{
 	
 
 

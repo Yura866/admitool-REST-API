@@ -13,10 +13,10 @@ import com.pagantis.admintool.dto.UserDTO;
 import com.pagantis.admintool.exception.ResourceNotFoundException;
 import com.pagantis.admintool.model.User;
 
-@Service
+@Service   
 public class UserServiceImpl implements UserService{
-	
-	@Autowired
+	      
+	@Autowired 
 	UserRepository userRepo;	
 
 

@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.pagantis.admintool.dto.UserDTO;
 import com.pagantis.admintool.model.User;
+import com.pagantis.admintool.service.UserService;
 import com.pagantis.admintool.service.UserServiceImpl;
 
 @RestController
@@ -24,7 +25,7 @@ import com.pagantis.admintool.service.UserServiceImpl;
 @RequestMapping(value = "/api")
 public class UserController {
 	
-	@Autowired UserServiceImpl userService;
+	@Autowired UserService userService;
 	
 	/**
 	 * Get all the users available

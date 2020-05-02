@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.pagantis.admintool.dto.WalletDTO;
+import com.pagantis.admintool.service.WalletService;
 import com.pagantis.admintool.service.WalletServiceImpl;
 
 
@@ -24,7 +25,7 @@ import com.pagantis.admintool.service.WalletServiceImpl;
 public class WalletController {
 	
 	@Autowired 
-	WalletServiceImpl walletService;
+	WalletService walletService;
    
 	/**
     * Get all user wallets by user id
